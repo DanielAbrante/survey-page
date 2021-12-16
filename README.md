@@ -1,2 +1,1 @@
-# survey-page
- 
+<img src="./img/readme/survey-page.png"/>
