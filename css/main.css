@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background: linear-gradient(0deg, rgba(100, 100, 255, 0.5), rgba(100, 100, 255, 0.5)), url(http://source.unsplash.com/random)  no-repeat fixed;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page {
+    width: 60%;
+    margin: auto;
+}
+
+header .header-container {
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container #title {
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.header-container #description {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+
+main form .form-container {
+    background-color: rgba(18, 18, 54, 0.8);
+    border-radius: 5px;
+}
+
+form .form-groups {
+    padding: 40px 40px 0px 40px;
+    margin-bottom: -10px;
+    display: flex;
+    flex-direction: column;
+}
+
+form #form-groups-radio, #form-groups-select {
+    padding: 40px 40px 0px 40px;
+    margin-bottom: -10px;
+}
+
+.groups-radio {
+    margin-bottom: 5px;
+}
+
+[type="radio"], [type="checkbox"] {
+    margin-left: 3px;
+    transform: scale(1.5);
+    margin-top: 10px;
+    margin-right: 6px;
+}
+
+label, p {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+span {
+    font-size: 16px;
+}
+
+input, select {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+option {
+   border: 3px solid red;
+}
+
+textarea {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 0 0 10px;
+    height: 120px;
+}
+
+button {
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(63, 168, 98);
+    color: white;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 475px){
+    #page {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px){
+    #page {
+        width: 70%;
+    }
+}
